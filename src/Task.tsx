@@ -4,7 +4,26 @@ import { MdDeleteForever } from "react-icons/md";
 const { Panel } = Collapse;
 import "./index.css";
 
-const Task = ({ data, onDelete, onStatusChange, onEdit }) => {
+interface TaskProps {
+  data: {
+    id: number;
+    title: string;
+    description: string;
+    status: string;
+    priority: string;
+    dueDate: string;
+  };
+  onDelete: (id: number) => void;
+  onStatusChange: (id: number, newStatus: "Completed" | "Pending") => void;
+  onEdit: () => void;
+}
+
+const Task: React.FC<TaskProps> = ({
+  data,
+  onDelete,
+  onStatusChange,
+  onEdit,
+}) => {
   const handleCheckboxChange = (e: any) => {
     const newStatus = e.target.checked ? "Completed" : "Pending";
     onStatusChange(data.id, newStatus);
