@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom-collapse .ant-collapse-header .ant-collapse-arrow {
+  color: green; /* Change to your desired color */
+}
+
+.ant-collapse-header .ant-collapse-arrow {
+  color: red; /* Change to your desired color */
+}
