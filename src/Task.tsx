@@ -5,7 +5,7 @@ const { Panel } = Collapse;
 import "./index.css";
 
 const Task = ({ data, onDelete, onStatusChange, onEdit }) => {
-  const handleCheckboxChange = (e) => {
+  const handleCheckboxChange = (e: any) => {
     const newStatus = e.target.checked ? "Completed" : "Pending";
     onStatusChange(data.id, newStatus);
   };
