@@ -1,3 +1,6 @@
+
+![Screenshot 2024-11-15 010808](https://github.com/user-attachments/assets/a381151e-94e2-423f-b9fd-b1079dd32538)
+
 # Task Management App
 
 A simple task management application built with **React**, **Ant Design**, and **Framer Motion**. This application allows users to **add**, **edit**, **delete**, and **track the completion status** of tasks. The tasks can be marked as **Completed** or **Pending** using checkboxes, and users can interact with tasks via collapsible panels. The app includes smooth animations using Framer Motion.
