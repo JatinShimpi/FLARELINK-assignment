@@ -29,3 +29,14 @@ To get started with this project, follow these steps:
 
 - **Node.js** and **npm** should be installed on your machine.
 - Clone the repository and navigate into the project folder.
+
+##  Usage
+
+- **Add a Task**: Use the input form to add a new task. It will appear in the list with options to edit or delete.
+- **Mark Task as Completed**: Use the checkbox to toggle the task's completion status. Tasks marked as "Completed" will have a strikethrough.
+- **Mark Task as Completed**: Use the checkbox to toggle the task's completion status. Tasks marked as "Completed" will have a strikethrough.
+- **Edit a Task**: Click the edit icon to open a form where you can modify the task details.
+- **Delete a Task**: Click the delete icon to remove a task from the list.
+
+Made with ❤️ by Jatin
+
